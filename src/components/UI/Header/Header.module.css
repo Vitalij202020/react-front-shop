@@ -1,0 +1,70 @@
+.topNav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+}
+
+.links a {
+    color: black;
+    text-align: center;
+    padding: 1.4rem 1rem;
+    text-decoration: none;
+    font-size: 1.7rem;
+}
+
+.links a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.links a.active {
+    background-color: var(--color-primary-dark);
+    color: white;
+}
+
+.topNav .searchContainer form{
+    display: flex;
+    align-items: center;
+}
+
+.topNav input[type=text] {
+    padding: .6rem;
+    font-size: 1.7rem;
+    border: none;
+}
+
+.topNav .searchContainer button {
+    padding: .5rem 1rem .2rem 1rem;
+    margin-right: 1.6rem;
+    background: #ddd;
+    font-size: 1.7rem;
+    border: none;
+    cursor: pointer;
+}
+
+.topNav .searchContainer button:hover {
+    background: #ccc;
+}
+
+.logout button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .7rem;
+    margin-right: 1.6rem;
+    background: #ddd;
+    font-size: 1.7rem;
+    border: none;
+    cursor: pointer;
+}
+
+.logout button:hover {
+    background: #ccc;
+}
+
+.logout button svg {
+    margin-right: 1rem;
+}

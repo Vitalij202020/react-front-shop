@@ -1,0 +1,13 @@
+.sInput {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.sInput:focus {
+    border: 3px solid #555;
+}

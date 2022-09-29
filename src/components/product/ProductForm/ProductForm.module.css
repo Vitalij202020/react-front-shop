@@ -1,0 +1,26 @@
+.container {
+    max-width: 50rem;
+}
+
+.container h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+.container p{
+    color: tomato;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.container label {
+    color: #555;
+    margin-left: .5rem;
+}
+
+.container input {
+    margin: .3rem 0 1.5rem 0;
+}

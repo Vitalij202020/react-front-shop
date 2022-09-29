@@ -1,0 +1,41 @@
+.wrapper{
+    height: 100vh;
+    transition: all 0.6s;
+    font-family: 'Lato', sans-serif;
+    color: #888;
+    margin: 0;
+    overflow: hidden;
+}
+
+.main{
+    display: table;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.fof{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.fof h1{
+    font-size: 50px;
+    display: inline-block;
+    padding-right: 12px;
+    animation: type .5s alternate infinite;
+}
+
+.fof a {
+    text-decoration: none;
+    color: #888888;
+}
+
+.fof a:hover {
+    border-bottom: 2px solid #888888;
+}
+
+@keyframes type{
+    from{box-shadow: inset -3px 0px 0px #888;}
+    to{box-shadow: inset -3px 0px 0px transparent;}
+}

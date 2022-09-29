@@ -1,0 +1,16 @@
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.greet {
+    width: 70rem;
+    margin-top: 10rem;
+}
+
+.greet h1{
+    text-align: center;
+    margin-bottom: 2rem;
+}
